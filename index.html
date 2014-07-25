@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title> Simple application </title>
+		<script src="js/zepto.min.js"></script>
+		 <script src="js/silly.js"></script>
+	</head>
+	<body>
+		<button id="silly"> Do it </button>
+		<button id="clear"> clear </button>
+		<div id="result"></div>
+	<script>
+	$('#silly').click(function(){
+
+
+	SILLY.DOit($('#result'))
+	})
+	 $('#clear').click(function(){
+        $('#result').html('');
+        })
+
+	</script>
+	</body>
+	<footer>
+	</footer>
+</html>
